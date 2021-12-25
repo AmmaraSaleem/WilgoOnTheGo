@@ -27,7 +27,7 @@ return (
 
     
       <Routes>
-        <Route  exact path="/admin" element={<MasterLayout/>}></Route>
+        <Route  exact path="/" element={<MasterLayout/>}></Route>
         <Route  exact path="/userManagament" element={<UserMangement/>}></Route>
         <Route  exact path="/userRecord" element={<UserRecord/>}></Route>
         <Route  exact path="/EditedUser" element={<EditedUser/>}></Route>
